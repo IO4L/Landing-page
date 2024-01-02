@@ -13,7 +13,7 @@
   color: white;
   padding: 18px 24px;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-around; 
 }
 
 .header {
@@ -42,6 +42,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  margin: 0 auto;
   min-height: 300px;
 }
 
@@ -52,8 +54,9 @@ a {
 }
 
 .awesome-container {
-  width: 350px;
+  flex-basis: 600px;
   margin-right: 100px;
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -71,6 +74,99 @@ a {
 }
 
 img {
-  width: 400px;
+  width: 350px;
   height: auto;
+  padding-top: 20px;
+}
+
+.info-head {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.information-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.info {
+  width: 170px;
+  text-align: center;
+}
+
+.box {
+  width: 170px;
+  height: 170px;
+  border: 3px solid blue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.quote-container {
+  margin: 0 auto;
+  background-color: #E5E7EB;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text-container {
+  width: 700px;
+}
+
+.quote-text {
+  font-size: 36px; 
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-name {
+  text-align: end;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cta-container {
+  background-color: #3882F6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  width: 900px;
+  margin: 70px auto;
+
+}
+
+.action-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 500px;
+}
+
+.action {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.cta-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+}
+
+.cta-container .sign-up {
+  border: 2px solid silver;
+  color: white;
 }
